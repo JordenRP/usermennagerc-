@@ -10,4 +10,4 @@ UserManagementApp — это сервисное приложение на C#, и
     docker-compose up --build
     ```
 
-2. Откройте index.html
+2. Откройте [index.html](./frontend/index.html)

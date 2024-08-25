@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль пользователя - Приложение управления пользователями</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Профиль пользователя</h1>
+        <button id="logout" class="btn">Выйти</button>
+    </header>
+    <main>
+        <div id="user-info">
+        </div>
+        <form id="edit-user-form" style="display: none;">
+            <div class="form-group">
+                <label for="username">Имя пользователя:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="firstName">Имя:</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Фамилия:</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            <button type="submit" class="btn">Сохранить изменения</button>
+        </form>
+        <button id="edit-user" class="btn">Редактировать профиль</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Приложение управления пользователями. Все права защищены.</p>
+    </footer>
+    <script src="js/user.js"></script>
+</body>
+</html>
